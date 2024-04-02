@@ -17,7 +17,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(/assets/img/restaurantElegante.webp);
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(restaurantElegante.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -26,7 +26,7 @@
 .header_about_camariere {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(/assets/img/austin-distel-744oGeqpxPQ-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(austin-distel-744oGeqpxPQ-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -35,7 +35,7 @@
 .header_restaurante {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(/assets/img/sheri-silver-q5C-_coAZR4-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(sheri-silver-q5C-_coAZR4-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -44,7 +44,7 @@
 .header_contact_us {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(/assets/img/caroline-attwood-AFaGrhbIn_U-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.70),rgba(4,9,30,0.70)),url(caroline-attwood-AFaGrhbIn_U-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
