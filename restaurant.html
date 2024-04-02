@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="../assets/img/logo2.png">
+    <link rel="stylesheet" href="/assets/css/restaurant.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../assets/css/inicio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <title>Camariere</title>
+
+</head>
+
+<body>
+    <section class="header_restaurante">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_camariere.html">ABOUT CAMARIERE</a></li>
+                    <li><a href="restaurant.html">RESTAURANT</a></li>
+                    <li><a href="billing.html">BILLING</a></li>
+                    <li><a href="contatc.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Restaurant Giovanni Italiano</h1>
+            <p>Italian-American restaurant specialized in lasagna, pizza and gelato</p>
+            <a href="/assets/document/restaurant.pdf" class="hero-btn">Menu</a>
+        </div>
+    </section>
+
+    <!---------- CONTENIDO PAG ----------->
+
+    <!-- Products -->
+
+    <div class="container text-center my-5">
+        <div class="row align-items-start">
+            <div class="col mt-4">
+                <div class="card">
+                    <div class="card-body card_plate">
+                        <img src="/assets/img/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg" class="card-img-top">
+                    </div>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne"
+                                style="background-color: #25294C; color: white;">
+                                An afternoon of pizza...
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse text-start"
+                            style="background-color: #ffe373;">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col title_plate_menu">Pepperoni</div>
+                                    <p class="description_plate">Enjoy our classic pizza topped with spicy pepperoni
+                                        slices for a tasty punch.</p>
+
+                                    <div class="col title_plate_menu">Chefsito</div>
+                                    <p class="description_plate">Dive into a cheesy delight with our blend of different
+                                        cheeses, gooey and delicious</p>
+
+                                    <div class="col title_plate_menu">Mixed</div>
+                                    <p class="description_plate">Explore a mix of flavors with our diverse toppings,
+                                        each bite a surprise.</p>
+
+                                    <div class="col title_plate_menu">Mushroom Chicken</div>
+                                    <p class="description_plate">Savor the creamy chicken and earthy mushrooms for a
+                                        comforting taste.</p>
+
+                                    <div class="col title_plate_menu">Neapolitan</div>
+                                    <p class="description_plate">Taste the simplicity of tomato sauce and mozzarella
+                                        cheese, just like in Italy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body card_plate">
+                        <img src="/assets/img/maryam-jahanmehr-g_BxoUpg1eI-unsplash.jpg" class="card-img-top">
+                    </div>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne"
+                                style="background-color: #25294C; color: white;">
+                                Tradition in flavor...
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse text-start"
+                            style="background-color: #ffe373;">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col title_plate_menu">Bolognesa</div>
+                                    <div class="col text-end price_plate">$15.000</div>
+                                    <p class="description_plate">Simmered beef sauce infused with aromatic herbs and
+                                        Parmesan cheese.</p>
+
+                                    <div class="col title_plate_menu">Carbonara</div>
+                                    <div class="col text-end price_plate">$15.000</div>
+                                    <p class="description_plate">Velvety sauce enriched with crispy bacon bits, eggs,
+                                        and Parmesan.</p>
+
+                                    <div class="col title_plate_menu">Mixed</div>
+                                    <div class="col text-end price_plate">$15.000</div>
+                                    <p class="description_plate">Layers of tantalizing flavors, from savory meats to
+                                        creamy cheeses</p>
+
+                                    <div class="col title_plate_menu">Neapolitian</div>
+                                    <div class="col text-end price_plate">$15.000</div>
+                                    <p class="description_plate">Rich tomato sauce marries with layers of gooey
+                                        mozzarella and herbs</p>
+
+                                    <div class="col title_plate_menu">From the garden</div>
+                                    <div class="col text-end price_plate">$15.000</div>
+                                    <p class="description_plate">Fresh, seasonal vegetables nestled between layers of
+                                        creamy cheese</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-4">
+                <div class="card">
+                    <div class="card-body card_plate">
+                        <img src="/assets/img/mae-mu-X5u6snvBCf0-unsplash.jpg" class="card-img-top">
+                    </div>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item mt-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseOne"
+                                style="background-color: #25294C; color: white;">
+                                A moment with your partner...
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse text-start"
+                            style="background-color: #ffe373;">
+                            <div class="accordion-body ">
+                                <div class="row">
+                                    <div class="col title_plate_menu">Lemon</div>
+                                    <p class="description_plate">Refreshing and citrusy, lemon gelato is made with fresh
+                                        lemon juice and lemon zest, without artificial colors or flavors.</p>
+
+                                    <div class="col title_plate_menu">Strawberry</div>
+                                    <p class="description_plate">Made with fresh, ripe strawberries, strawberry gelato
+                                        offers a sweet and natural flavor that is popular among ice cream lovers.</p>
+
+                                    <div class="col title_plate_menu">Mint</div>
+                                    <p class="description_plate">Refreshing and invigorating, mint gelato is made with
+                                        fresh mint leaves, providing a natural and revitalizing taste.</p>
+
+                                    <div class="col title_plate_menu">Nut</div>
+                                    <p class="description_plate">Walnut ice cream is made with fresh roasted walnuts,
+                                        offering a rich and creamy flavor without artificial additives or colorings,
+                                        always natural and traditional. Brazil nuts, macadamia and pecans</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!---------- FOOTER ----------->
+
+    <section class="footer">
+        <h5>Our networks</h5>
+        <p>In each space you can find more about us.</p>
+
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-twitter-x"></i>
+        </div>
+        <p>Contact us <i class="bi bi-suit-heart"> and enjoy our services</i> </p>
+    </section>
+
+    <!-- Funcion para vista menu en moviles -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    <script src="/js/about_camariere.js"></script>
+
+</body>
+
+</html>

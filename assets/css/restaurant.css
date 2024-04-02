@@ -1,0 +1,50 @@
+.principal_title_plates {
+    color: #25294C;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
+
+.title_plates {
+    color: #25294C;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
+
+.title_combo {
+    color: #c3271c;
+    font-weight: 800;
+    letter-spacing: 10px;
+    background-color: #0F4C2D;
+    border-radius: 10px;
+    font-size: 100px;
+}
+
+.line_plate {
+    color: #c3271c;    
+}
+
+.card_plate {
+    background-color: #edaaa5;
+    width: auto;
+}
+
+
+.title_plate_menu {
+    color: #89292F;
+    font-weight: bold;
+}
+
+.price_plate {
+    color: #0F4C2D;
+    font-weight: 700;
+}
+
+.description_plate {
+    color: rgb(74, 73, 73);
+    font-size: 15px;
+}
